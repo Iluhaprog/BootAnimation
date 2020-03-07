@@ -81,8 +81,8 @@
 >
 &nbsp;&nbsp;&nbsp;&nbsp;` optional : {`
 >
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;` color: "#252525",
->`
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;` color: "#252525",`
+>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`width: "65px",`
 >
 &nbsp;&nbsp;&nbsp;&nbsp;`},`
