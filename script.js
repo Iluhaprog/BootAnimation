@@ -97,4 +97,4 @@ function CSSLoad(file) {
 }
 
 CSSLoad("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css");
-CSSLoad("bootAnimation/main.css");
+CSSLoad("BootAnimation/main.css");
