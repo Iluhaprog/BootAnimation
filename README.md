@@ -9,44 +9,44 @@
     >
     ` <script src="/bootAnimation/script.js"></script>`
     >
-     `<script src="data.js"></script>`
+    `<script src="data.js"></script>`
     >
-     `<script>`
-     >
-     &nbsp;&nbsp;&nbsp;&nbsp;`init(data, "loader");`
-      >
-      `</script>`
+    `<script>`
+    >
+    &nbsp;&nbsp;&nbsp;&nbsp; `init(data, "loader");`
+    >
+    `</script>`
 
 2.  Создать файл __data.js__ в корневой директории;
 3.  Перети в __data.js__ и написать
     > 
     `const data = {`
     >
-        &nbsp;&nbsp;&nbsp;&nbsp;`column: {`
-        >
-         &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;`id: "cl1",`
-         >
-         &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;`speed: 1000,`
-         >
-         &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;`changeNumber: 50,`
-         >
-         &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;`contentType: ICON,`
-         >
-         &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;`arr: [`
-         >
-             &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;`"fas fa-times",`
-             >
-             &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;`"fas fa-heart",`
-             >
-             &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;`"fas fa-skull",`
-             >
-             &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;`"fas fa-angry",`
-             >
-             &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;`"fas fa-robot"`
-             >
-         &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;`],`
-         >
-    `},`
+    &nbsp;&nbsp;&nbsp;&nbsp;`column: {`
+    >
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`id: "cl1",`
+    >  
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`speed: 1000,`
+    >
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`changeNumber: 50,`
+    >
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`contentType: ICON,`
+    >
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`arr: [`
+    >
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`"fas fa-times",`
+    >
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`"fas fa-heart",`
+    >
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`"fas fa-skull",`
+    >
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`"fas fa-angry",`
+    >
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`"fas fa-robot"`
+    >
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`],`
+    >
+`},`
 
 --------
 ### Параметры column
@@ -67,41 +67,41 @@
 | `width` | Ширина колонки | Нет | Строка | `optional : { width: "100px" }`|
 
 ### Полный пример :
- > `const data = {`
- >
-    &emsp;&emsp;`column1: {`
+    > `const data = {`
     >
-        &emsp;&emsp;&emsp;&emsp;`id: "cl1",`
-        >
-        &emsp;&emsp;&emsp;&emsp;`speed: 1000,`
-        >
-       &emsp;&emsp;&emsp;&emsp;` changeNumber: 50,`
-       >
-       &emsp;&emsp;&emsp;&emsp;` contentType: ICON,`
-       >
-       &emsp;&emsp;&emsp;&emsp;` optional : {`
-       >
-           &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;` color: "#252525",
-           >`
-            &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;`width: "65px",`
-            >
-        &emsp;&emsp;&emsp;&emsp;`},`
-        >
-       &emsp;&emsp;&emsp;&emsp;` arr: [`
-       >
-             &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;`"fas fa-times",`
-             >
-             &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;`"fas fa-heart",`
-             >
-           &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; ` "fas fa-skull",`
-           >
-           &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; ` "fas fa-angry",`
-           >
-           &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; ` "fas fa-robot"`
-           >
-        &emsp;&emsp;&emsp;&emsp;`],`
-        >
-    &emsp;&emsp;`},`
+    &nbsp;&nbsp;`column1: {`
+    >
+    &nbsp;&nbsp;&nbsp;&nbsp;`id: "cl1",`
+    >
+    &nbsp;&nbsp;&nbsp;&nbsp;`speed: 1000,`
+    >
+    &nbsp;&nbsp;&nbsp;&nbsp;` changeNumber: 50,`
+    >
+    &nbsp;&nbsp;&nbsp;&nbsp;` contentType: ICON,`
+    >
+    &nbsp;&nbsp;&nbsp;&nbsp;` optional : {`
+    >
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;` color: "#252525",
+    >`
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`width: "65px",`
+    >
+    &nbsp;&nbsp;&nbsp;&nbsp;`},`
+    >
+    &nbsp;&nbsp;&nbsp;&nbsp;` arr: [`
+    >
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`"fas fa-times",`
+    >
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`"fas fa-heart",`
+    >
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ` "fas fa-skull",`
+    >
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ` "fas fa-angry",`
+    >
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ` "fas fa-robot"`
+    >
+    &nbsp;&nbsp;&nbsp;&nbsp;`],`
+    >
+    &nbsp;&nbsp;`},`
     >
 `};`
 
